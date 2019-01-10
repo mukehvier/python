@@ -1,0 +1,12 @@
+    self.last = last
+        self.pay = pay
+        self.email = first + '.' + last + '@gmail.com'
+    def fullname(self):
+        return '{} {}'.format(self.first, self.last)
+
+emp_1 = Employee('max', 'singh', 7000)
+emp_2 = Employee('Singh', 'Rano', 20000)
+print(emp_1.last)
+print(emp_2.pay)
+print(emp_2.email)
+print(emp_2.fullname())
